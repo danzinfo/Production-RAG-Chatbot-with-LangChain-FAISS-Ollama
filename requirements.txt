@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-huggingface
+sentence-transformers
+transformers
+unstructured
+faiss-cpu
+torch
+pypdf
+
+
