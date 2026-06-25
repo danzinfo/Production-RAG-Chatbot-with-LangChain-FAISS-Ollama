@@ -1,5 +1,7 @@
 Production-ready RAG chatbot using LangChain, FAISS, Hugging Face embeddings, and Ollama (Llama 3.2). Features PDF/TXT document ingestion, semantic search with MMR retrieval, local vector storage, context-only answering, and hallucination reduction through strict prompt grounding.
+
 This project demonstrates a complete Retrieval-Augmented Generation (RAG) pipeline from document ingestion to question answering. It is designed to provide accurate, context-grounded responses while minimizing hallucinations by restricting the language model to retrieved document content only.
+
 A lightweight, local-first Retrieval-Augmented Generation (RAG) application that allows you to chat with your own documents using LangChain, FAISS, Hugging Face Embeddings, and Ollama's Llama 3.2 model.
 
 ```
@@ -56,9 +58,9 @@ Project Structure:
 └── faiss_index/     # Generated vector database
 
 ```
-```
-Workflow:
 
+Workflow:
+```
 1. Ingest Documents
 Run the ingestion pipeline to:
 •	Load PDF and TXT files
@@ -83,9 +85,9 @@ Answer:
 [Generated response based only on retrieved context]
 ```
 
-```
-Tech Stack:
 
+Tech Stack:
+```
 •	LangChain
 •	FAISS
 •	Hugging Face Embeddings
@@ -95,9 +97,9 @@ Tech Stack:
 
 ```
 
-```
-Features:
 
+Features:
+```
 •	Local RAG pipeline
 
 •	No external vector database required
@@ -112,9 +114,9 @@ Features:
 
 ```
 
-```
-Future Enhancements:
 
+Future Enhancements:
+```
 •	Streamlit/Web UI
 
 •	Source citation display
